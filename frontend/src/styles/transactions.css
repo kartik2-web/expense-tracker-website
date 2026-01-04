@@ -1,0 +1,53 @@
+.transactions {
+  margin-top: 20px;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  border: 1px solid #1f2937;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.income-item {
+  border-right: 5px solid #22c55e;
+}
+
+.expense-item {
+  border-right: 5px solid #ef4444;
+}
+
+.tx-date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* ✅ ACTION BUTTONS FIX */
+.edit-btn,
+.delete-btn {
+  background: #1f2937;
+  border: none;
+  color: #e5e7eb;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.edit-btn:hover {
+  background: #2563eb;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
